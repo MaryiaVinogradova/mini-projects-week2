@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./Stylesheet-2.css">
+</head>
+<body>
+<header>
+    <h1>CSS Snipped Cheatsheet</h1>
+</header>
+    <p>
+        Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add it to this page! Select any snippet below and it'll automatically select all of the code for you to copy.
+    </p>
+
+    
+    <div>
+        <section class="call-out">
+            <header>Flexbox row</header>
+            <p>
+                Use these there properties to create a Flexbox row layout
+            </p>
+            <main class="gradient">
+                .row {
+                    <li>flex;</li>
+                    <li>flex-direction: row;</li>
+                    <li>flex-wrap;</li>
+                }
+            </main>
+        </section>
+
+        <section class="call-out">
+            <header>Flexbox column</header>
+             <p>
+                Use this to create a Flexbox column layout
+             </p>
+             <main class="gradient">
+                .column {
+                 <li>display: flex;</li>
+                 <li>flex-direction: column</li>
+                }
+            </main>
+        </section>
+
+        <section class="call-out">
+            <header>CSS Grid Layout</header>
+             <p>
+                Build a 12-column layout using CSS Grid
+            </p>
+            <main class="gradient">
+                .grid {
+                 <li>display: grid</li>
+                 <li>width: 100%</li>
+                 <li>grid-template-columns: repeat(12, 12r);</li>
+                 }
+            </main>
+        </section>
+        
+        <section class="call-out">
+            <header>Linear Gradient</header>
+                <p>
+                   This will create a background linear gradient from top to bottom
+                </p>
+            <main class="gradient">
+                .linear-gradient-background {
+                 <li>background-image: linear-gradient;</li>
+                 <li>rgba(232, 102, 236, 0.3) 0%.</li>
+                 <li>rgba(232, 102, 236, 0.6) 100%</li>
+                 }
+            </main>
+        </section>
+        <section class="call-out">
+            <header>Box Transition Glow</header>
+                <p>
+                   Use transition and box shadows to glow on hover
+                </p>
+            <main class="gradient">
+                .code-card .card-header {
+                 <li>border-radius: 8px;</li>
+                 <li>transition: all 0.5%s ease-in-out</li>
+                 <li>rgba(232, 102, 236, 0.6) 100%</li>
+                 }
+
+                .code-card:hover;
+                .code-card:hover .card-header {
+                 <li>box-shadow: inset 0px 0px 8px;</li>
+                 <li>rgba(232, 102, 236, 1) 0 0 15px;</li>
+                 <li>rgba(232, 102, 236, 1);</li>
+                 }
+            </main>
+        </section>
+        <section class="call-out">
+            <header>Overlay Card with Title</header>
+                <p>
+                   Use position properties and negative margins to raise elements higher than their natural starting point
+                </p>
+            <main class="gradient">
+                .card-header {
+                 <li>position: relative;</li>
+                 <li>margin-top: -20px</li>
+                 }
+            </main>
+        </section>
+
+    </div>
+
+    <footer>Made with &#10084;&#65039 and CSS</footer>
+</body>
+</html>
